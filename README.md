@@ -1,1 +1,0 @@
-# Configure-a-Handoff-Gateway-on-an-Edge-or-Profile---Python
