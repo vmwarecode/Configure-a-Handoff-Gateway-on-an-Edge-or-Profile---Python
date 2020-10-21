@@ -1,4 +1,3 @@
-
     GATEWAY_NAME = 'edit-name-here'
     ENTERPRISE_ID = 1
     EDGE_ID = 1
@@ -35,5 +34,4 @@
     params = {"enterpriseId": ENTERPRISE_ID,
               "id": moduleId,
               "_update": {"data": data}}
-    #submit configuration/getConfigurationModules
     res = client.call('configuration/updateConfigurationModule', params)
