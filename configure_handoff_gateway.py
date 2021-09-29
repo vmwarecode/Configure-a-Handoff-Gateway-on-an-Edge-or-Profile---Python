@@ -22,7 +22,6 @@
 
     # Add handoff gateway to global segment
     seg = segments[0]
-    seg["handOffGateways"] = {}
     handOffGateways = seg["handOffGateways"]
     if "gateways" in handOffGateways:
         del handOffGateways["gateways"]
